@@ -1,0 +1,16 @@
+---
+title: "Teste com o Python dentro do RStudio"
+author: "João Pedro Albino"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Testando a geração de RMarkdown utilizando o código em Python:
+
+```{python}
+print("Alô mundão véio sem porteira!")
+```
